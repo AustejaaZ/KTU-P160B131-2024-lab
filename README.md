@@ -2,37 +2,39 @@
 
 |Variantas | ecoActCode|Formatas          |
 |:---------|----------:|:-----------------|
-|999         |     11111111111|https://atvira.sodra.lt/imones/downloads/2023/monthly-2023.json.zip|
+|23          |     433900|monthly-2023.csv|
 
 
 ### 2.1 Užduotis
 
 Atsakymas:
 
-![histograma](img/pavyzdys1.png)
+![histograma](img/pirmasGrafikas.png)
 
-Išvados:
+Išvados: Daugiausiai žmonių gauna atlyginimą iki 1000eur.
 
 ### 2.2 Užduotis
 
 Atsakymas:
 
-![atlyginimai](img/pavyzdys2.png)
+![atlyginimai](img/antrasGrafikas.png)
 
-Išvados:
+Išvados: Didžiausi atlyginimai 2023 metais buvo įmonėje UAB PRONTAS
 
 
 ### 2.3 Užduotis
 
 Atsakymas:
 
-![apdraustieji](img/pavyzdys3.png)
+![apdraustieji](img/treciasGrafikas.png)
 
-Išvados:
+Išvados: Daugiausiai apdrautųjų yra įmonėje UAB "BOTEKA",o mažiausiai Uždaroje akcinėje bendrovėje "Alternos statybos"
 
 
 ### 3. Užduotis
 
 Shiny R aplikacijos nuotrauka:
 
-![shiny app](img/shiny_example.png)
+![shiny app](img/ShinyAplikacija.png)
+
+
