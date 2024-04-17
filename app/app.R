@@ -21,12 +21,6 @@ server <- function(input, output,session) {
   data<-read.csv("../data/433900.csv")
   names(data)=c("1","2","3","Pavadinimas","5","6","7","menuo","VidAtlyginimas","10","11","12","13")
   updateSelectizeInput(session,"Kodas",choices=data$Pavadinimas,server=TRUE)
-  #data %>%
-  # filter(Pavadinimas..name. == input$Kodas) %>%
-  # group_by(Pavadinimas..name.) %>%
-  #summarise(max_apdraustuju = max(`Apdraustųjų skaičius (numInsured)`),
-  #        max_vid_atlyginimas = max(`Vidutinis darbo užmokestis (avgWage)`))
-  
   output$plot<-renderPlot(
     data%>%
       filter(Pavadinimas==input$Kodas)%>%
